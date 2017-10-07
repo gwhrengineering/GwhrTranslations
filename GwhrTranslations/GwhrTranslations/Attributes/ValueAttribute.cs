@@ -14,9 +14,12 @@ namespace GwhrEngineering.Translations.Attributes
         }
 
         public ValueAttribute(string strValue, string strDesc)
-		{
-			this._strValue = strValue;
+        {
+            this._strValue = strValue;
             this._strDescription = strDesc;
-		}
+        }
+
+        public string Value => _strValue;
+        public string Description => _strDescription;
     }
 }

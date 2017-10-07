@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GwhrTranslations", "GwhrTranslations\GwhrTranslations.csproj", "{DB223A8A-94E3-45D1-AB02-D6B2005EBE32}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GwhrTranslations", "GwhrTranslations\GwhrTranslations.csproj", "{DB223A8A-94E3-45D1-AB02-D6B2005EBE32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GwhrSettings.Core", "..\..\GwhrNetCoreSettings\GwhrSettings.Core\GwhrSettings.Core.csproj", "{019116AD-8291-4633-B5F7-5069329EB752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GwhrSettings.Core", "..\..\GwhrNetCoreSettings\GwhrSettings.Core\GwhrSettings.Core.csproj", "{019116AD-8291-4633-B5F7-5069329EB752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GwhrTranslations.Test", "GwhrTranslations.Test\GwhrTranslations.Test.csproj", "{99E54EF7-ED7A-4048-A90E-6FEB084CFD89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +22,15 @@ Global
 		{019116AD-8291-4633-B5F7-5069329EB752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{019116AD-8291-4633-B5F7-5069329EB752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{019116AD-8291-4633-B5F7-5069329EB752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E54EF7-ED7A-4048-A90E-6FEB084CFD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E54EF7-ED7A-4048-A90E-6FEB084CFD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E54EF7-ED7A-4048-A90E-6FEB084CFD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E54EF7-ED7A-4048-A90E-6FEB084CFD89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25B8CDD9-2623-49D1-A16C-2BEBB68FF5D6}
 	EndGlobalSection
 EndGlobal
